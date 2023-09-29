@@ -13,8 +13,7 @@
 
 	// Use 'postCreateCommand' to run commands after the container is created.
 	// "postCreateCommand": "R -q -e 'renv::install()'",
-	"postCreateCommand": "bash /workspace/.devcontainer/post-create.sh",
-
+	"postCreateCommand": "bash /workspaces/Statistical-Rethinking/.devcontainer/post-create.sh",
 
 	// Configure tool-specific properties.
 	// "customizations": {},
